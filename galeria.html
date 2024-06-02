@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Fotos - Decoração de Festas Infantil</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="slideshow.css">
+</head>
+<body>
+    <header>
+        <img src="logo01.jpg" alt="Logo da Decoração de Festas Infantil" class="logo">
+        <h1>Decoração de Festas Infantil</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="galeria">
+            <h2>Galeria de Fotos</h2>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="foto01.jpg" style="width:100%">
+                    <div class="text">Descrição da Foto 01</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="foto02.jpg" style="width:100%">
+                    <div class="text">Descrição da Foto 02</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="foto03.jpg" style="width:100%">
+                    <div class="text">Descrição da Foto 03</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="logo02.jpg" alt="Contatos das Redes Sociais" class="logo">
+        <p>&copy; 2024 Decoração de Festas Infantil. Todos os direitos reservados.</p>
+    </footer>
+    <script src="slideshow.js"></script>
+</body>
+</html>
